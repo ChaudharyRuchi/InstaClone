@@ -1,0 +1,29 @@
+header.app-header{
+  padding: 20px 200px;
+  height: 104px;
+  border-bottom: 1px solid #006238;
+  box-sizing: border-box;
+
+}
+
+
+header.app-header .logo-container{
+ float: left;
+ display: flex;
+ align-items: center;
+ margin-left: 12px;
+}
+
+header.app-header .logo-container .logo-text{
+  font-size: 48px;
+  color: #006238;
+}
+header.app-header .logo{
+  width:64px;
+}
+
+
+header.app-header .header-camera{
+  float:right;
+  width:48px;
+}

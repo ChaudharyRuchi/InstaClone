@@ -1,0 +1,34 @@
+.Landing{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-evenly;
+  }
+  .landing_img{
+    width: 45vw;
+    height: 80vh;
+    align-self: center;
+    justify-self: center;
+  }
+  .name_button{
+    text-align: center;
+  }
+  .name{
+    color: green;
+    font-family:'Times New Roman';
+    font-size: 2rem;
+  }
+  .button{
+    margin: 2.5rem;
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 0.2rem;
+    color: green;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  .button:hover{
+    color: #C7E8F3;
+    background-color: #41393E;
+  }
+  

@@ -1,0 +1,69 @@
+.card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card_header {
+    display: flex;
+    margin: 10px; 
+}
+.card_header__name {
+    font-weight: bold;
+}
+.card_header__place {
+    color: gray;
+}
+
+.card_header span {
+    margin-left: auto;
+    align-self: center;
+}
+
+.card_image img {
+    object-fit: contain;
+    width: 100%;
+    height: 260px;
+}
+
+.likes {
+    margin-left: 2px;
+    color: gray;
+    font-size: 12px;
+}
+
+.description {
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.desc-section{
+    padding: 5px 20px;
+  }
+  .heart-rocket-likes img{
+    width: 17px;
+    margin-right: 15px;
+  }
+  .heart-rocket-likes .likes{
+    color: #a5a5a5;
+    font-size: 13px;
+  }
+
+  .upper-desc{
+    display: flex;
+    justify-content: space-between;
+  }
+  .desc-section .date{
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .desc-section .description{
+    margin-top: 5px;
+    font-weight: 600;
+  }
